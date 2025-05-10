@@ -1,3 +1,9 @@
+import { AirdropForm } from "@/components/AirdropForm";
+
 export default function page() {
-  return <div>Hello, World!</div>;
+  return (
+    <div>
+      <AirdropForm />
+    </div>
+  );
 }
